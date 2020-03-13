@@ -11,7 +11,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 export class AppComponent {
   public mode = 'list';
   public todos: Todo[] = [];
-  public title: string = 'Minhas tarefas';
+  public title: string = 'Lista de tarefas';
   public form: FormGroup;
 
   constructor(private fb: FormBuilder) {
